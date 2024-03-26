@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <!--navbar-->
+    <nav class="Navbar">
+        <h1>Wesstra</h1>
+        <div class="navbar-links">
+            <p class="navbar-link"><a href="index.html">Home</a></p>
+            <p class="navbar-link"><a href="collection.html">collection</a></p>
+            <p class="navbar-link"><a href="contact.html">contact</a></p>
+        </div>
+        <div class="navbar-menu-toggle" onclick=showNavbar()>
+            <i class="fa-solid fa-bars" ></i>
+        </div>
+    </nav>
+
+     
+   <!--slide bar-->
+
+    <div class="slide-navbar">
+        <p style="text-align: right;" onclick=closeNavbar()>
+            <i class="fa-solid fa-xmark" ></i>
+        </p>
+
+        <div class="slide-navbar-links">
+            <p class="slide-navbar-link"><a href="index.html">Home</a></p>
+            <p class="slide-navbar-link"><a href="collection.html">collection</a></p>
+            <p class="slide-navbar-link"><a href="contact.html">contact</a></p>
+        </div>
+    </div>
+
+    <!--Product-->
+    <div class="product-section">
+        <form class="product-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </form>
+
+        <div class="products" id="products">
+            <div class="product-box">
+                <img src="https://source.unsplash.com/random/200x200/?black Dress?" alt="">
+                <p>Black Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://source.unsplash.com/random/200x200/?white Dress?" alt="">
+                <p>White Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://source.unsplash.com/random/200x200/?gray Dress?" alt="">
+                <p>Gray Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://source.unsplash.com/random/200x200/?red Dress?" alt="">
+                <p>Red Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://source.unsplash.com/random/200x200/?Pink Dress?" alt="">
+                <p>Pink Shirt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://source.unsplash.com/random/200x200/?Green Dress?" alt="">
+                <p>Green Shirvt</p>
+            </div>
+
+            <div class="product-box">
+                <img src="https://source.unsplash.com/random/200x200/?Blue Dress?" alt="">
+                <p>Blue Shirt</p>
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box-1">
+                <h2 class="headingtext">Wesstra</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat officia molestiae repellat ullam</p>
+                <div class="footer-icon-container">
+                    <i class="fa-brands fa-instagram" style="color: #ffff;"></i>
+                    <i class="fa-brands fa-twitter" style="color: #ffff;"></i>
+                    <i class="fa-brands fa-facebook" style="color: #ffff;"></i>
+                </div>
+            </div>
+            <p>@ 2024 Wesstra.com </p>
+        </div>
+    </div>
+
+</body>
+<script src="collection.js"></script>
+</html>
